@@ -1,0 +1,61 @@
+#random-movies-carousel {
+    height: auto;
+    width: auto;
+    max-width: 670px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.banner-heading {
+    padding: 1em;
+    background: repeating-linear-gradient( 45deg, grey, grey 10px, lightgrey 10px, lightgrey 20px);
+    z-index: 999;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color:#AAAAAA;
+    font-size: 21px;
+    font-family: 'Roboto';
+}
+
+.items {
+    background-color: lightgrey;
+}
+
+.item-section-header {
+    color: black !important;
+    font-weight: 600;
+    font-family: 'Archivo Black';
+    font-size: 30px;
+    padding: 0 20px 0 0;
+}
+
+.item-poster {
+    margin: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+.person-img {
+    width: 100px;
+    height:100px;
+}
+
+.review-item {
+    margin-left: -20px !important;
+}
+
+
